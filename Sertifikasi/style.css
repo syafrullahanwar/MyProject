@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    color: #F9FBFE;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FBFE;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #0F8B8D;
+}
+
+h4 {
+    font-size: 24px;
+    color: #EC9A29;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #F9FBFE;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    padding-top: 10px;
+    color: #F9FBFE;
+}
+
+p {
+    font-size: 24px;
+}
+
+/*HEADER*---------------------*/
+
+header {
+    background-image: url(/img/Coffe\ Header.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.header-contents {
+    padding: 160px;
+}
+
+.header-contents h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #F9FBFE;
+}
+
+.header-contents h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #F9FBFE;
+    font-weight: 100;
+}
+
+/*NAVBAR----------------------------*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+    background: transparent;
+    
+}
+
+.header-logo {
+    margin-left: 138px;
+    
+}
+
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link li {
+    position: relative;
+    margin-right: 80px;
+    height: 100%;
+    font-weight: 400px;
+}
+
+/*MAIN-----------------------------*/
+
+.main {
+    margin-top: 7.16%;
+    padding-left: 4.16%;
+    padding-right: 4.16%;
+}
+
+.container {
+    max-width: 1056px;
+    margin: 50px auto;
+
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px; 
+}
+
+.imginfo {
+    max-width: 420px;
+    margin-right: 4%;
+}
+
+.text-contents {
+    max-width: 460px;
+    align-items: center;
+}
+
+.line {
+    border-bottom: 5px solid #EC9A29;
+    width: 70%;
+    padding-top: 8px;
+}
+
+.heading-contents {
+    display: flex;
+    align-items: baseline;
+}
+
+.text-contents p {
+    padding-top: 20px;
+}
+
+button {
+    border-radius: 55px;
+    margin-top: 40px;
+    padding: 20px 80px 20px 80px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    border-color: #F9FBFE;
+    background-color: #A8201A;
+    
+}
+
+.heading-findus {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.findus span {
+    color: #EC9A29;
+    border-bottom: 3px solid #EC9A29;
+}
+
+
+.contents-findus img {
+    width: 30%;
+    margin: 20px 10px;
+}
+
+.heading-ask {
+    text-align: center;
+}
+
+.btn-ask {
+    text-align: center;   
+}
+
+.ask {
+    margin: 90px;
+}
+
+
+/*FOOTER--------------------------*/
+
+.footer {
+    background-color: #143642;
+    clear: left;
+    height: 460px;
+    border-radius: 30px;
+}
+
+.footer-main {
+    padding: 50px;
+}
+
+.footer-menu li {
+    padding-top: 30px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.container-menu {
+    margin: 20px 60px;
+}
+
+svg {
+    fill: #F9FBFE;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*NAVBAR MENU---------------------------------*/
+
+.header-menu {
+    background-color: #0F8B8D;
+    height: 150px;
+    justify-content: center;
+}
+
+
+/*MAIN MENU-------------------------------------*/
+
+.contents-product {
+    text-align: center;
+}
+
+.product-menu {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+.heading-product {
+    margin: 20px;
+}
+
+.text-product {
+    margin: 20px;
+}
+
+.card {
+    width: 216px;
+    height: 216px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(/img/Coffee\ background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*MAIN DETAIL PAGE-------------------------------------------*/
+
+.deskripsi {
+    width: 90%;
+    margin-bottom: 200px;
+}
+
+.line1 {
+    border-bottom: 5px solid #EC9A29;
+    width: 40%;
+    padding-top: 8px;
+}
+
+.deskripsi p {
+    padding-top: 20px;
+}
+
+.price h1 {
+    color: #0F8B8D;
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.btnDetail img {
+    transform: rotate(180deg);
+}
+
+
+/*MAIN FINDUS-------------------------------------------*/
+
+.box {
+    max-width: 70%;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.headings {
+    padding: 50px 20px;
+}
+
+.headings h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.maps {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.container-findus {
+    max-width: 1500px;
+    margin: 50px auto;
+}
+
+/*CONTACT FORM MAIN---------------------------------*/
+
+label {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+form {
+    background: #FFFFFF;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 15%;
+}
+
+.input-box {
+    width: 90%;
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 70%;
+    height: 71px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #D2D2D2;
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #D2D2D2;
+}
+
+.contact-form {
+    margin: 70px 80px;
+}
+
+.btn {
+    text-align: center;
+}
